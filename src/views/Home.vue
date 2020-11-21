@@ -24,16 +24,16 @@ import json from "@/components/assets/data.json";
 
 export default {
   name: "Merch",
-  data: function () {
+  data: function() {
     return {
-      products: json.products, // passing array data into Vue
+      products: json.products // passing array data into Vue
     };
   },
 
-  mounted: function () {
+  mounted: function() {
     // Checking if everything works, delete this right after you see that everything works
     console.log(this.products);
-  },
+  }
 };
 </script>
 
@@ -58,4 +58,3 @@ export default {
   border: 1px solid #009bff;
 }
 </style>
-

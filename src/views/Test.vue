@@ -13,8 +13,8 @@
             <h6>Rating: {{ game.rating_top }}</h6>
             <h6>Released: {{ game.released }}</h6>
             <router-link :to="'/game/' + game.id" class="link"
-              >More Info </router-link
-            >
+              >More Info
+            </router-link>
           </div>
         </div>
       </div>
@@ -41,16 +41,16 @@ export default {
 .card-img-top {
   min-height: 9rem;
 }
-.name{
+.name {
   text-transform: uppercase;
-  margin-top: .50rem;
+  margin-top: 0.5rem;
 }
 .card {
   min-height: 23rem;
   background-color: rgb(224, 220, 213);
   color: rgb(82, 38, 47);
   margin: 2rem;
-  border: 0.25rem solid rgba(0,0,0,.125);
+  border: 0.25rem solid rgba(0, 0, 0, 0.125);
 }
 .link {
   text-decoration: underline;
