@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav" class="container mt-10">
-      <img src="" alt="">
+      <img src="" alt="" />
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/test">Test</router-link>

@@ -1,352 +1,494 @@
 {
    "products": [
-
       {
-      "name" : "T-skjorte",
-      "imageurl" : "http://urte.no/skole/ExamPictures/tshirt_uni_white_chest_ornage_logo.png",  
-      "price" : "199",
-      "description" : "En hvit unisex t-skjorte laget av økologisk bomull med liten oransje logo på venstre bryst",
-      "id": "1001"
+         "name": "T-skjorte",
+         "imageurl": "http://urte.no/skole/ExamPictures/tshirt_uni_white_chest_ornage_logo.png",
+         "price": "199",
+         "description": "En hvit unisex t-skjorte laget av økologisk bomull med liten oransje logo på venstre bryst",
+         "id": "1001",
+         "size": "Small",
+         "gender": "Dame",
+         "type": "Clothing"
       },
       {
-         "name" : "T-skjorte",
-         "imageurl" : "http://urte.no/skole/ExamPictures/tshirt_uni_black_chest_ornage_logo.png",  
-         "price" : "199",
-         "description" : "En svart unisex t-skjorte laget av økologisk bomull med liten oransje logo på venstre bryst",
-         "id": "1002"
+         "name": "T-skjorte",
+         "imageurl": "http://urte.no/skole/ExamPictures/tshirt_uni_black_chest_ornage_logo.png",
+         "price": "199",
+         "description": "En svart unisex t-skjorte laget av økologisk bomull med liten oransje logo på venstre bryst",
+         "id": "1002",
+         "size": "Small",
+         "gender": "Dame",
+         "type": "Clothing"
       },
       {
-         "name" : "T-skjorte",
-         "imageurl" : "http://urte.no/skole/ExamPictures/tshirt_men_orange_chest_ornage_logo.png",  
-         "price" : "199",
-         "description" : "En oransje t-skjorte for menn laget av økologisk bomull med liten oransje logo på venstre bryst",
-         "id": "1003"
+         "name": "T-skjorte",
+         "imageurl": "http://urte.no/skole/ExamPictures/tshirt_men_orange_chest_ornage_logo.png",
+         "price": "199",
+         "description": "En oransje t-skjorte for menn laget av økologisk bomull med liten oransje logo på venstre bryst",
+         "id": "1003",
+         "size": "Small",
+         "gender": "Dame",
+         "type": "Clothing"
       },
       {
-         "name" : "T-skjorte",
-         "imageurl" : "http://urte.no/skole/ExamPictures/tshirt_men_white_chest_navy_logo.png",  
-         "price" : "199",
-         "description" : "En hvit t-skjorte for menn laget av økologisk bomull med liten blå logo på venstre bryst",
-         "id": "1004" 
+         "name": "T-skjorte",
+         "imageurl": "http://urte.no/skole/ExamPictures/tshirt_men_white_chest_navy_logo.png",
+         "price": "199",
+         "description": "En hvit t-skjorte for menn laget av økologisk bomull med liten blå logo på venstre bryst",
+         "id": "1004",
+         "size": "Small",
+         "gender": "Dame",
+         "type": "Clothing"
       },
       {
-         "name" : "T-skjorte",
-         "imageurl" : "http://urte.no/skole/ExamPictures/tshirt_men_white_chest_ornage_logo.png",  
-         "price" : "199",
-         "description" : "En hvit t-skjorte for menn laget av økologisk bomull med liten oransje logo på venstre bryst",
-         "id": "1005"
+         "name": "T-skjorte",
+         "imageurl": "http://urte.no/skole/ExamPictures/tshirt_men_white_chest_ornage_logo.png",
+         "price": "199",
+         "description": "En hvit t-skjorte for menn laget av økologisk bomull med liten oransje logo på venstre bryst",
+         "id": "1005",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "T-skjorte",
-         "imageurl" : "http://urte.no/skole/ExamPictures/tshirt_uni_black_chest_navy_logo.png",  
-         "price" : "199",
-         "description" : "En svart t-skjorte for menn laget av økologisk bomull med liten blå logo på venstre bryst",
-         "id": "1006" 
-      }, 
-      {
-         "name" : "Sekk",
-         "imageurl" : "http://urte.no/skole/ExamPictures/backpack_black_navy_big_logo.png",  
-         "price" : "249",
-         "description" : "En svart unisex sekk med stor blå logo på lommen",
-         "id": "1007"
+         "name": "T-skjorte",
+         "imageurl": "http://urte.no/skole/ExamPictures/tshirt_uni_black_chest_navy_logo.png",
+         "price": "199",
+         "description": "En svart t-skjorte for menn laget av økologisk bomull med liten blå logo på venstre bryst",
+         "id": "1006",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Sekk",
-         "imageurl" : "http://urte.no/skole/ExamPictures/backpack_black_navy_logo.png",  
-         "price" : "249",
-         "description" : "En svart unisex sekk med blå logo på lommen",
-         "id": "1008" 
+         "name": "Sekk",
+         "imageurl": "http://urte.no/skole/ExamPictures/backpack_black_navy_big_logo.png",
+         "price": "249",
+         "description": "En svart unisex sekk med stor blå logo på lommen",
+         "id": "1007",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Sekk",
-         "imageurl" : "http://urte.no/skole/ExamPictures/backpack_black_ornage_big_logo.png",  
-         "price" : "249",
-         "description" : "En svart unisex sekk med oransje logo på lommen",
-         "id": "1009" 
-      },
-
-      {
-         "name" : "Sekk",
-         "imageurl" : "http://urte.no/skole/ExamPictures/backpack_black_ornage_big_logo.png",  
-         "price" : "99",
-         "description" : "En svart unisex sekk med oransje logo på lommen",
-         "id": "1010"
+         "name": "Sekk",
+         "imageurl": "http://urte.no/skole/ExamPictures/backpack_black_navy_logo.png",
+         "price": "249",
+         "description": "En svart unisex sekk med blå logo på lommen",
+         "id": "1008",
+         "size": "Medium",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Drikkeflaske",
-         "imageurl" : "http://urte.no/skole/ExamPictures/bottle_white_navy_logo.png",  
-         "price" : "99",
-         "description" : "En hvit drikkeflaske med stor logo",
-         "id": "1011" 
+         "name": "Sekk",
+         "imageurl": "http://urte.no/skole/ExamPictures/backpack_black_ornage_big_logo.png",
+         "price": "249",
+         "description": "En svart unisex sekk med oransje logo på lommen",
+         "id": "1009",
+         "size": "Medium",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Bøttehatt",
-         "imageurl" : "http://urte.no/skole/ExamPictures/bucket_uni_black_navy_logo.png",  
-         "price" : "199",
-         "description" : "En svart unisex bøttehatt med liten blå logo",
-         "id": "1012"
+         "name": "Sekk",
+         "imageurl": "http://urte.no/skole/ExamPictures/backpack_black_ornage_big_logo.png",
+         "price": "99",
+         "description": "En svart unisex sekk med oransje logo på lommen",
+         "id": "1010",
+         "size": "Medium",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Bøttehatt",
-         "imageurl" : "http://urte.no/skole/ExamPictures/bucket_uni_black_white_logo.png",  
-         "price" : "199",
-         "description" : "En svart unisex bøttehatt med liten hvit logo",
-         "id": "1013"
+         "name": "Drikkeflaske",
+         "imageurl": "http://urte.no/skole/ExamPictures/bottle_white_navy_logo.png",
+         "price": "99",
+         "description": "En hvit drikkeflaske med stor logo",
+         "id": "1011",
+         "size": "Medium",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Collage genser",
-         "imageurl" : "http://urte.no/skole/ExamPictures/college_uni_black_back.png",  
-         "price" : "249",
-         "description" : "En svart unisex collage genser med blå logo på ryggen",
-         "id": "1014" 
+         "name": "Bøttehatt",
+         "imageurl": "http://urte.no/skole/ExamPictures/bucket_uni_black_navy_logo.png",
+         "price": "199",
+         "description": "En svart unisex bøttehatt med liten blå logo",
+         "id": "1012",
+         "size": "Medium",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Collage genser",
-         "imageurl" : "http://urte.no/skole/ExamPictures/college_uni_black_navy_logo.png",  
-         "price" : "249",
-         "description" : "En svart unisex collage genser med blå logo",
-         "id": "1015"
+         "name": "Bøttehatt",
+         "imageurl": "http://urte.no/skole/ExamPictures/bucket_uni_black_white_logo.png",
+         "price": "199",
+         "description": "En svart unisex bøttehatt med liten hvit logo",
+         "id": "1013",
+         "size": "Large",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Collage genser",
-         "imageurl" : "http://urte.no/skole/ExamPictures/college_uni_white_back.png",  
-         "price" : "249",
-         "description" : "En hvit unisex collage genser med blå logo",
-         "id": "1016"
+         "name": "Collage genser",
+         "imageurl": "http://urte.no/skole/ExamPictures/college_uni_black_back.png",
+         "price": "249",
+         "description": "En svart unisex collage genser med blå logo på ryggen",
+         "id": "1014",
+         "size": "Large",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Cropped t-skjorte",
-         "imageurl" : "http://urte.no/skole/ExamPictures/cropped_tshirt_black_chest_navy_logo.png",  
-         "price" : "199",
-         "description" : "En svart cropped t-skjorte for damer med liten blå logo på venstre bryst",
-         "id": "1017"
+         "name": "Collage genser",
+         "imageurl": "http://urte.no/skole/ExamPictures/college_uni_black_navy_logo.png",
+         "price": "249",
+         "description": "En svart unisex collage genser med blå logo",
+         "id": "1015",
+         "size": "Large",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Cropped t-skjorte",
-         "imageurl" : "http://urte.no/skole/ExamPictures/cropped_tshirt_black_chest_navy_logo.png",  
-         "price" : "199",
-         "description" : "En hvit cropped t-skjorte for damer med liten blå logo på venstre bryst",
-         "id": "1018"
+         "name": "Collage genser",
+         "imageurl": "http://urte.no/skole/ExamPictures/college_uni_white_back.png",
+         "price": "249",
+         "description": "En hvit unisex collage genser med blå logo",
+         "id": "1016",
+         "size": "Large",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Cropped t-skjorte",
-         "imageurl" : "http://urte.no/skole/ExamPictures/cropped_tshirt_black_chest_navy_logo.png",  
-         "price" : "199",
-         "description" : "En hvit cropped t-skjorte for damer med liten blå logo på venstre bryst",
-         "id": "1019"
+         "name": "Cropped t-skjorte",
+         "imageurl": "http://urte.no/skole/ExamPictures/cropped_tshirt_black_chest_navy_logo.png",
+         "price": "199",
+         "description": "En svart cropped t-skjorte for damer med liten blå logo på venstre bryst",
+         "id": "1017",
+         "size": "Large",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Svart kopp",
-         "imageurl" : "http://urte.no/skole/ExamPictures/cup_black.png",  
-         "price" : "99",
-         "description" : "Svart kopp",
-         "id": "1020"
+         "name": "Cropped t-skjorte",
+         "imageurl": "http://urte.no/skole/ExamPictures/cropped_tshirt_black_chest_navy_logo.png",
+         "price": "199",
+         "description": "En hvit cropped t-skjorte for damer med liten blå logo på venstre bryst",
+         "id": "1018",
+         "size": "Large",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Svart kopp",
-         "imageurl" : "http://urte.no/skole/ExamPictures/cup_black_navy_logo.png",  
-         "price" : "99",
-         "description" : "Svart kopp med blå logo",
-         "id": "1021"
+         "name": "Cropped t-skjorte",
+         "imageurl": "http://urte.no/skole/ExamPictures/cropped_tshirt_black_chest_navy_logo.png",
+         "price": "199",
+         "description": "En hvit cropped t-skjorte for damer med liten blå logo på venstre bryst",
+         "id": "1019",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Hvit metall kopp",
-         "imageurl" : "http://urte.no/skole/ExamPictures/cup_metal_navy_logo.png",  
-         "price" : "149",
-         "description" : "Hvit kopp i metall med blå logo. Passer perfekt til varme drikker",
-         "id": "1022"
+         "name": "Svart kopp",
+         "imageurl": "http://urte.no/skole/ExamPictures/cup_black.png",
+         "price": "99",
+         "description": "Svart kopp",
+         "id": "1020",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Blå kopp",
-         "imageurl" : "http://urte.no/skole/ExamPictures/cup_navy.png",  
-         "price" : "99",
-         "description" : "Blå kopp",
-         "id": "1023"
+         "name": "Svart kopp",
+         "imageurl": "http://urte.no/skole/ExamPictures/cup_black_navy_logo.png",
+         "price": "99",
+         "description": "Svart kopp med blå logo",
+         "id": "1021",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Oransje kopp",
-         "imageurl" : "http://urte.no/skole/ExamPictures/cup_orange.png",  
-         "price" : "99",
-         "description" : "oransje kopp",
-         "id": "1024"
+         "name": "Hvit metall kopp",
+         "imageurl": "http://urte.no/skole/ExamPictures/cup_metal_navy_logo.png",
+         "price": "149",
+         "description": "Hvit kopp i metall med blå logo. Passer perfekt til varme drikker",
+         "id": "1022",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Hvit kopp",
-         "imageurl" : "http://urte.no/skole/ExamPictures/cup_white_navy_long_logo.png",  
-         "price" : "99",
-         "description" : "Hvit kopp med lang blå logo",
-         "id": "1025"
+         "name": "Blå kopp",
+         "imageurl": "http://urte.no/skole/ExamPictures/cup_navy.png",
+         "price": "99",
+         "description": "Blå kopp",
+         "id": "1023",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Hettegenser",
-         "imageurl" : "http://urte.no/skole/ExamPictures/hoodie_men_black_chest_navy_logo.png",  
-         "price" : "299",
-         "description" : "Svart hettegenser for menn med blå logo",
-         "id": "1026"
+         "name": "Oransje kopp",
+         "imageurl": "http://urte.no/skole/ExamPictures/cup_orange.png",
+         "price": "99",
+         "description": "oransje kopp",
+         "id": "1024",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Hettegenser",
-         "imageurl" : "http://urte.no/skole/ExamPictures/hoodie_men_black_chest_navy_logo.png",  
-         "price" : "299",
-         "description" : "Svart hettegenser for menn med blå logo",
-         "id": "1027"
+         "name": "Hvit kopp",
+         "imageurl": "http://urte.no/skole/ExamPictures/cup_white_navy_long_logo.png",
+         "price": "99",
+         "description": "Hvit kopp med lang blå logo",
+         "id": "1025",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Hettegenser",
-         "imageurl" : "http://urte.no/skole/ExamPictures/hoodie_men_black_white_logo.png",  
-         "price" : "299",
-         "description" : "Svart hettegenser for menn med hvit logo",
-         "id": "1028"
+         "name": "Hettegenser",
+         "imageurl": "http://urte.no/skole/ExamPictures/hoodie_men_black_chest_navy_logo.png",
+         "price": "299",
+         "description": "Svart hettegenser for menn med blå logo",
+         "id": "1026",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Hettegenser",
-         "imageurl" : "http://urte.no/skole/ExamPictures/hoodie_men_white_black_logo.png",  
-         "price" : "299",
-         "description" : "Hvit hettegenser for menn med svart logo",
-         "id": "1029"
+         "name": "Hettegenser",
+         "imageurl": "http://urte.no/skole/ExamPictures/hoodie_men_black_chest_navy_logo.png",
+         "price": "299",
+         "description": "Svart hettegenser for menn med blå logo",
+         "id": "1027",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Hettegenser",
-         "imageurl" : "http://urte.no/skole/ExamPictures/hoodie_men_white_chest_navy_logo.png",  
-         "price" : "299",
-         "description" : "Hvit hettegenser for menn med blå logo på venstre bryst",
-         "id": "1030"
+         "name": "Hettegenser",
+         "imageurl": "http://urte.no/skole/ExamPictures/hoodie_men_black_white_logo.png",
+         "price": "299",
+         "description": "Svart hettegenser for menn med hvit logo",
+         "id": "1028",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Hettegenser",
-         "imageurl" : "http://urte.no/skole/ExamPictures/hoodie_woman_black_chest_navy_logo.png",  
-         "price" : "299",
-         "description" : "Svart hettegenser for damer med blå logo på venstre bryst",
-         "id": "1031"
+         "name": "Hettegenser",
+         "imageurl": "http://urte.no/skole/ExamPictures/hoodie_men_white_black_logo.png",
+         "price": "299",
+         "description": "Hvit hettegenser for menn med svart logo",
+         "id": "1029",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Hettegenser",
-         "imageurl" : "http://urte.no/skole/ExamPictures/hoodie_woman_black_white_logo.png",  
-         "price" : "299",
-         "description" : "Svart hettegenser for damer med hvit logo på venstre bryst",
-         "id": "1032"
+         "name": "Hettegenser",
+         "imageurl": "http://urte.no/skole/ExamPictures/hoodie_men_white_chest_navy_logo.png",
+         "price": "299",
+         "description": "Hvit hettegenser for menn med blå logo på venstre bryst",
+         "id": "1030",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Hettegenser",
-         "imageurl" : "http://urte.no/skole/ExamPictures/hoodie_woman_black_chest_navy_logo.png",  
-         "price" : "299",
-         "description" : "Svart hettegenser for damer med blå logo på venstre bryst",
-         "id": "1033"
+         "name": "Hettegenser",
+         "imageurl": "http://urte.no/skole/ExamPictures/hoodie_woman_black_chest_navy_logo.png",
+         "price": "299",
+         "description": "Svart hettegenser for damer med blå logo på venstre bryst",
+         "id": "1031",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Hettegenser",
-         "imageurl" : "http://urte.no/skole/ExamPictures/hoodie_woman_white_chest_navy_logo.png",  
-         "price" : "299",
-         "description" : "Hvit hettegenser for damer med blå logo på venstre bryst",
-         "id": "1034"
+         "name": "Hettegenser",
+         "imageurl": "http://urte.no/skole/ExamPictures/hoodie_woman_black_white_logo.png",
+         "price": "299",
+         "description": "Svart hettegenser for damer med hvit logo på venstre bryst",
+         "id": "1032",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Hettegenser",
-         "imageurl" : "http://urte.no/skole/ExamPictures/hoodie_woman_white_white_logo.png",  
-         "price" : "299",
-         "description" : "Hvit hettegenser for damer med hvit logo",
-         "id": "1035"
+         "name": "Hettegenser",
+         "imageurl": "http://urte.no/skole/ExamPictures/hoodie_woman_black_chest_navy_logo.png",
+         "price": "299",
+         "description": "Svart hettegenser for damer med blå logo på venstre bryst",
+         "id": "1033",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "T-skjorte med knyting",
-         "imageurl" : "http://urte.no/skole/ExamPictures/knot_tshirt_woman_black_chest_navy_logo.png",  
-         "price" : "149",
-         "description" : "Svart t-skjorte for damer med knyting og blå logo på venstre bryst",
-         "id": "1036"
+         "name": "Hettegenser",
+         "imageurl": "http://urte.no/skole/ExamPictures/hoodie_woman_white_chest_navy_logo.png",
+         "price": "299",
+         "description": "Hvit hettegenser for damer med blå logo på venstre bryst",
+         "id": "1034",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "T-skjorte med knyting",
-         "imageurl" : "http://urte.no/skole/ExamPictures/knot_tshirt_woman_white_chest_navy_logo.png",  
-         "price" : "149",
-         "description" : "Hvit t-skjorte for damer med knyting og blå logo på venstre bryst",
-         "id": "1037"
+         "name": "Hettegenser",
+         "imageurl": "http://urte.no/skole/ExamPictures/hoodie_woman_white_white_logo.png",
+         "price": "299",
+         "description": "Hvit hettegenser for damer med hvit logo",
+         "id": "1035",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Longsleeve",
-         "imageurl" : "http://urte.no/skole/ExamPictures/longsleeve_unisex_white_chest_navy_logo.png",  
-         "price" : "199",
-         "description" : "Hvit unisex longsleeve med blå logo på venstre bryst",
-         "id": "1038"
+         "name": "T-skjorte med knyting",
+         "imageurl": "http://urte.no/skole/ExamPictures/knot_tshirt_woman_black_chest_navy_logo.png",
+         "price": "149",
+         "description": "Svart t-skjorte for damer med knyting og blå logo på venstre bryst",
+         "id": "1036",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Totebag",
-         "imageurl" : "http://urte.no/skole/ExamPictures/tote_beige_orange_logo.png",  
-         "price" : "99",
-         "description" : "Beige totebag med oransje logo",
-         "id": "1039"
+         "name": "T-skjorte med knyting",
+         "imageurl": "http://urte.no/skole/ExamPictures/knot_tshirt_woman_white_chest_navy_logo.png",
+         "price": "149",
+         "description": "Hvit t-skjorte for damer med knyting og blå logo på venstre bryst",
+         "id": "1037",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Totebag",
-         "imageurl" : "http://urte.no/skole/ExamPictures/tote_beige_orange_long_logo.png",  
-         "price" : "99",
-         "description" : "Beige totebag med lang oransje logo",
-         "id": "1040"
+         "name": "Longsleeve",
+         "imageurl": "http://urte.no/skole/ExamPictures/longsleeve_unisex_white_chest_navy_logo.png",
+         "price": "199",
+         "description": "Hvit unisex longsleeve med blå logo på venstre bryst",
+         "id": "1038",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Totebag",
-         "imageurl" : "http://urte.no/skole/ExamPictures/tote_black_white_logn_logo.png",  
-         "price" : "99",
-         "description" : "Svart totebag med hvit logo",
-         "id": "1041"
+         "name": "Totebag",
+         "imageurl": "http://urte.no/skole/ExamPictures/tote_beige_orange_logo.png",
+         "price": "99",
+         "description": "Beige totebag med oransje logo",
+         "id": "1039",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Totebag",
-         "imageurl" : "http://urte.no/skole/ExamPictures/tote_black_white_logn_logo.png",  
-         "price" : "99",
-         "description" : "Svart totebag med en hvit lang logo",
-         "id": "1042"
+         "name": "Totebag",
+         "imageurl": "http://urte.no/skole/ExamPictures/tote_beige_orange_long_logo.png",
+         "price": "99",
+         "description": "Beige totebag med lang oransje logo",
+         "id": "1040",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Totebag",
-         "imageurl" : "http://urte.no/skole/ExamPictures/tote_black_white_logo.png",  
-         "price" : "99",
-         "description" : "Svart totebag med hvit logo",
-         "id": "1043"
+         "name": "Totebag",
+         "imageurl": "http://urte.no/skole/ExamPictures/tote_black_white_logn_logo.png",
+         "price": "99",
+         "description": "Svart totebag med hvit logo",
+         "id": "1041",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Totebag",
-         "imageurl" : "http://urte.no/skole/ExamPictures/tote_navy_orange_long_logo.png",  
-         "price" : "99",
-         "description" : "Blå totebag med en oransje lang logo",
-         "id": "1044"
+         "name": "Totebag",
+         "imageurl": "http://urte.no/skole/ExamPictures/tote_black_white_logn_logo.png",
+         "price": "99",
+         "description": "Svart totebag med en hvit lang logo",
+         "id": "1042",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Totebag",
-         "imageurl" : "http://urte.no/skole/ExamPictures/tote_navy_white_logo.png",  
-         "price" : "99",
-         "description" : "Blå totebag med hvit logo",
-         "id": "1045"
+         "name": "Totebag",
+         "imageurl": "http://urte.no/skole/ExamPictures/tote_black_white_logo.png",
+         "price": "99",
+         "description": "Svart totebag med hvit logo",
+         "id": "1043",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Totebag",
-         "imageurl" : "http://urte.no/skole/ExamPictures/tote_white_navy_long_logo.png",  
-         "price" : "99",
-         "description" : "Hvit totebag med en lang blå logo",
-         "id": "1046"
+         "name": "Totebag",
+         "imageurl": "http://urte.no/skole/ExamPictures/tote_navy_orange_long_logo.png",
+         "price": "99",
+         "description": "Blå totebag med en oransje lang logo",
+         "id": "1044",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Totebag",
-         "imageurl" : "http://urte.no/skole/ExamPictures/tote_white_navy_long_logo.png",  
-         "price" : "99",
-         "description" : "Hvit totebag med en lang blå logo",
-         "id": "1047"
+         "name": "Totebag",
+         "imageurl": "http://urte.no/skole/ExamPictures/tote_navy_white_logo.png",
+         "price": "99",
+         "description": "Blå totebag med hvit logo",
+         "id": "1045",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Half-zip",
-         "imageurl" : "http://urte.no/skole/ExamPictures/zip_uni_black_chest_navy_logo.png",  
-         "price" : "249",
-         "description" : "En svart unisex half-zip med blå logo på venstre bryst",
-         "id": "1048"
+         "name": "Totebag",
+         "imageurl": "http://urte.no/skole/ExamPictures/tote_white_navy_long_logo.png",
+         "price": "99",
+         "description": "Hvit totebag med en lang blå logo",
+         "id": "1046",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       },
       {
-         "name" : "Half-zip",
-         "imageurl" : "http://urte.no/skole/ExamPictures/zip_uni_black_chest_white_logo.png",  
-         "price" : "249",
-         "description" : "En svart unisex half-zip med hvit logo på venstre bryst",
-         "id": "1049"
+         "name": "Totebag",
+         "imageurl": "http://urte.no/skole/ExamPictures/tote_white_navy_long_logo.png",
+         "price": "99",
+         "description": "Hvit totebag med en lang blå logo",
+         "id": "1047",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
+      },
+      {
+         "name": "Half-zip",
+         "imageurl": "http://urte.no/skole/ExamPictures/zip_uni_black_chest_navy_logo.png",
+         "price": "249",
+         "description": "En svart unisex half-zip med blå logo på venstre bryst",
+         "id": "1048",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
+      },
+      {
+         "name": "Half-zip",
+         "imageurl": "http://urte.no/skole/ExamPictures/zip_uni_black_chest_white_logo.png",
+         "price": "249",
+         "description": "En svart unisex half-zip med hvit logo på venstre bryst",
+         "id": "1049",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
       }
    ]
 }
-
-
-
