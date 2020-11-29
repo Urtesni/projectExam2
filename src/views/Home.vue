@@ -1,40 +1,50 @@
 <template>
-  <div class="merch container">
-    <div class="row">
-      <v-checkbox v-model="sizeFilter" label="Small" value="Small"></v-checkbox>
-      <v-checkbox
-        v-model="sizeFilter"
-        label="Medium"
-        value="Medium"
-      ></v-checkbox>
+  <div>
+    <header> {{cart.length}} in cart </header>
+    <div class="merch container">
+      <div class="row">
+        <v-checkbox
+          v-model="sizeFilter"
+          label="Small"
+          value="Small"
+          color="orange darken-3"
+        ></v-checkbox>
+        <v-checkbox
+          v-model="sizeFilter"
+          label="Medium"
+          value="Medium"
+        ></v-checkbox>
 
-      <v-checkbox
-        v-model="genderFilter"
-        label="Herre"
-        value="Herre"
-      ></v-checkbox>
-      <v-checkbox v-model="genderFilter" label="Dame" value="Dame"></v-checkbox>
-      <v-checkbox
-        v-model="genderFilter"
-        label="Unisex"
-        value="Unisex"
-      ></v-checkbox>
-    </div>
-    <div class="row">
-      <div
-        v-for="product in products"
-        :key="product.id"
-        class="col-xs-12 col-sm-6 col-md-4 mt-5"
-      >
-        <div class="card">
-          <img :src="product.imageurl" />
-          <h4 class="mt-3">{{ product.name }}</h4>
-          <p>{{ product.size }}</p>
-          <div class="card-body">
-            <div class="describe">{{ product.description }}</div>
+        <v-checkbox
+          v-model="genderFilter"
+          label="Herre"
+          value="Herre"
+        ></v-checkbox>
+        <v-checkbox
+          v-model="genderFilter"
+          label="Dame"
+          value="Dame"
+        ></v-checkbox>
+        <v-checkbox
+          v-model="genderFilter"
+          label="Unisex"
+          value="Unisex"
+        ></v-checkbox>
+      </div>
+      <div class="row">
+        <div
+          v-for="product in products"
+          :key="product.id"
+          class="col-10 col-sm-10 col-md-6 col-lg-4 mt-5"
+        >
+          <div class="card">
+            <img class="cardImage" :src="product.imageurl" />
+            <h4 class="mt-3">{{ product.name }}</h4>
+            <p>{{ product.price }}</p>
+            <div class="card-body"></div>
           </div>
+          <button class="button" v-on:click="addItemToCart(product)">Kjøp</button>
         </div>
-        <button class="button">Se produkt</button>
       </div>
     </div>
   </div>
@@ -45,11 +55,13 @@ import json from "@/components/assets/data.json";
 
 export default {
   name: "Home",
+
   data: function () {
     return {
+      cart: [],
       genderFilter: [],
       sizeFilter: [],
-      products: [], // passing array data into Vue
+      products: [],
     };
   },
   watch: {
@@ -61,8 +73,6 @@ export default {
     },
   },
   created() {
-    // Checking if everything works, delete this right after you see that everything works
-    // console.log(this.products);
     this.products = json.products;
   },
   methods: {
@@ -73,15 +83,18 @@ export default {
         } else if (this.genderFilter.length && !this.sizeFilter.length) {
           return this.genderFilter.includes(p.gender);
         } else if (!this.sizeFilter.length && !this.genderFilter.length) {
-          return true
-        }
-        else {
+          return true;
+        } else {
           return (
             this.sizeFilter.includes(p.size) &&
             this.genderFilter.includes(p.gender)
           );
         }
       });
+    },
+    addItemToCart(product) {
+      this.cart.push(product);
+      console.log(this.cart);
     },
   },
 };
@@ -103,8 +116,9 @@ export default {
   text-transform: none;
 }
 .card {
-  min-height: 20rem;
-  margin: 2rem;
-  border: 1px solid #009bff;
+  border: none;
+  background-color: #F2F2F2;
+  float: center;
 }
+
 </style>
