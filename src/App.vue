@@ -1,13 +1,21 @@
 <template>
-  <div id="app">
-    <div id="nav" class="container mt-10">
+  <v-app>
+    <v-app-bar fixed color="#009bff" elevate-on-scroll dark app>
       <img src="" alt="" />
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> 
-      <button class="small-button" @click="$router.push('cart')">Cart</button>
-    </div>
-    <router-view />
-  </div>
+      <v-spacer />
+      <v-btn @click="$router.push('/')" text>Home</v-btn>
+      <v-btn @click="$router.push('/about')" text>About</v-btn>
+      <v-spacer />
+      <v-badge content="2" color="orange" overlap>
+        <v-btn @click="$router.push('cart')" icon>
+          <v-icon>mdi-cart-outline</v-icon>
+        </v-btn>
+      </v-badge>
+    </v-app-bar>
+    <v-main>
+      <router-view />
+    </v-main>
+  </v-app>
 </template>
 
 <style>
@@ -17,7 +25,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 #nav {
