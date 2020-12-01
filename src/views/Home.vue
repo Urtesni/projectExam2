@@ -36,10 +36,9 @@
           class="col-10 col-sm-10 col-md-6 col-lg-4 mt-5"
         >
           <div class="card">
-            <img class="cardImage" :src="product.imageurl" />
+            <img :src="product.imageurl" />
             <h4 class="mt-3">{{ product.name }}</h4>
             <p>{{ product.price }}</p>
-            <div class="card-body"></div>
           </div>
           <button class="button" v-on:click="addItemToCart(product)">
             Kjøp
@@ -118,7 +117,14 @@ export default {
   border: none;
   background-color: #f2f2f2;
   float: center;
+  min-height: 415px;
 }
+
+.card img {
+  height: 100%;
+  width: 100%;
+}
+
 .filter {
   text-transform: uppercase;
 }
