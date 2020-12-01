@@ -1,36 +1,34 @@
 <template>
   <div>
-    <header> {{cart.length}} in cart </header>
-    <div class="merch container">
-      <div class="row">
-        <v-checkbox
-          v-model="sizeFilter"
-          label="Small"
-          value="Small"
-          color="orange darken-3"
-        ></v-checkbox>
-        <v-checkbox
-          v-model="sizeFilter"
-          label="Medium"
-          value="Medium"
-        ></v-checkbox>
+    <v-img
+      min-height="252"
+      min-width="500"
+      src="../components/assets/header3.png"
+    ></v-img>
 
-        <v-checkbox
-          v-model="genderFilter"
-          label="Herre"
-          value="Herre"
-        ></v-checkbox>
-        <v-checkbox
-          v-model="genderFilter"
-          label="Dame"
-          value="Dame"
-        ></v-checkbox>
-        <v-checkbox
-          v-model="genderFilter"
-          label="Unisex"
-          value="Unisex"
-        ></v-checkbox>
-      </div>
+    <div class="row m-5 filter">
+      <v-checkbox
+        class="m-2"
+        v-for="size in sizes"
+        :key="size"
+        v-model="sizeFilter"
+        :label="size"
+        :value="size"
+        color="orange darken-3"
+      ></v-checkbox>
+
+      <v-checkbox
+        class="m-2"
+        v-for="gender in genders"
+        :key="gender"
+        v-model="genderFilter"
+        :label="gender"
+        :value="gender"
+        color="orange darken-3"
+      ></v-checkbox>
+    </div>
+
+    <div class="merch container">
       <div class="row">
         <div
           v-for="product in products"
@@ -43,7 +41,9 @@
             <p>{{ product.price }}</p>
             <div class="card-body"></div>
           </div>
-          <button class="button" v-on:click="addItemToCart(product)">Kjøp</button>
+          <button class="button" v-on:click="addItemToCart(product)">
+            Kjøp
+          </button>
         </div>
       </div>
     </div>
@@ -55,12 +55,12 @@ import json from "@/components/assets/data.json";
 
 export default {
   name: "Home",
-
   data: function () {
     return {
-      cart: [],
       genderFilter: [],
+      genders: ["Dame", "Herre", "Unisex"],
       sizeFilter: [],
+      sizes: ["Small", "Medium", "Large"],
       products: [],
     };
   },
@@ -93,8 +93,7 @@ export default {
       });
     },
     addItemToCart(product) {
-      this.cart.push(product);
-      console.log(this.cart);
+      this.$emit("addToCart", product);
     },
   },
 };
@@ -117,8 +116,10 @@ export default {
 }
 .card {
   border: none;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   float: center;
 }
-
+.filter {
+  text-transform: uppercase;
+}
 </style>

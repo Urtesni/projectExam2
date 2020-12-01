@@ -1,22 +1,64 @@
 <template>
   <v-app>
     <v-app-bar fixed color="#009bff" elevate-on-scroll dark app>
-      <img src="" alt="" />
+      <img src="./components/assets/logo.png" alt="" />
       <v-spacer />
       <v-btn @click="$router.push('/')" text>Home</v-btn>
-      <v-btn @click="$router.push('/about')" text>About</v-btn>
-      <v-spacer />
-      <v-badge content="2" color="orange" overlap>
+      <v-btn @click="$router.push('/about')" text>Om Produktene</v-btn>
+      
+      <v-badge
+        v-if="cart"
+        :content="cart.length"
+        color="orange"
+        overlap
+        :value="cart.length"
+      >
         <v-btn @click="$router.push('cart')" icon>
           <v-icon>mdi-cart-outline</v-icon>
         </v-btn>
       </v-badge>
     </v-app-bar>
     <v-main>
-      <router-view />
+      <router-view @addToCart="addToCart" :cart="cart" />
     </v-main>
+    <v-bottom-navigation :value="value" color="orange" class="mt-5">
+      <v-spacer />
+      <v-btn>
+        <span>Bli lærer!</span>
+      </v-btn>
+      <v-spacer />
+      <v-btn>
+        <span>Hvem er vi</span>
+      </v-btn>
+      <v-spacer />
+      <img src="./components/assets/logo_sm.png" alt="" width="45px" />
+      <v-spacer />
+      <v-btn>
+        <span>Learnlink i presse</span>
+      </v-btn>
+      <v-spacer />
+      <v-btn>
+        <span>Shipping</span>
+      </v-btn>
+      <v-spacer />
+    </v-bottom-navigation>
   </v-app>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      cart: [],
+    };
+  },
+  methods: {
+    addToCart(item) {
+      this.cart.push(item);
+    },
+  },
+};
+</script>
 
 <style>
 #app {
@@ -42,4 +84,5 @@
 button.small-button {
   float: right;
 }
+
 </style>
