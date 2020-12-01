@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-app-bar fixed color="#009bff" elevate-on-scroll dark app>
-      <img src="./components/assets/logo.png" alt="" />
+      <img src="./components/assets/logo.png" alt="" @click="$router.push('/')" />
       <v-spacer />
       <v-btn @click="$router.push('/')" text>Home</v-btn>
       <v-btn @click="$router.push('/about')" text>Om Produktene</v-btn>
@@ -31,7 +31,7 @@
         <span>Hvem er vi</span>
       </v-btn>
       <v-spacer />
-      <img src="./components/assets/logo_sm.png" alt="" width="45px" />
+      <img src="./components/assets/logo_sm.png" alt="" height="100%" />
       <v-spacer />
       <v-btn>
         <span>Learnlink i presse</span>
