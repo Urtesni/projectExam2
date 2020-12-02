@@ -22,18 +22,52 @@
         </v-list-item-avatar>
       </v-list-item>
 
-      <v-card-actions>
-        <v-btn class="cardbutton" outlined rounded text> Fjern vare </v-btn>
-      </v-card-actions>
+      <v-btn class="cardbutton" v-on:click="removeItemFromCart(product)" icon>
+        <v-icon>mdi-delete</v-icon>
+      </v-btn>
     </v-card>
-    <v-btn class="paybutton" @click="$router.push('payment')"> Til betaling
+    <v-btn class="paybutton" @click="paymentDialogVisible = true">
+      Til betaling
     </v-btn>
+
+    <v-dialog v-model="paymentDialogVisible">
+      <v-card>
+        <payment @success="successfulPayment" />
+      </v-card>
+    </v-dialog>
+
+    <v-dialog v-model="successDialogVisible">
+      <v-card>
+        <v-alert type="success"> Yey! </v-alert>
+        <h4>Tak for bestillingen!</h4>
+        <v-btn @click="successDialogVisible = false">Lukk</v-btn>
+      </v-card>
+    </v-dialog>
   </div>
 </template>
 
 <script>
+import Payment from "../components/Payment";
 export default {
   props: ["cart"],
+  components: {
+    Payment,
+  },
+  data() {
+    return {
+      paymentDialogVisible: false,
+      successDialogVisible: false,
+    };
+  },
+  methods: {
+    removeItemFromCart(product) {
+      this.cart.splice(this.cart.indexOf(product.id));
+    },
+    successfulPayment() {
+      this.paymentDialogVisible = false;
+      this.successDialogVisible = true;
+    },
+  },
 };
 </script>
 
@@ -41,6 +75,7 @@ export default {
 .cardbutton {
   justify-content: center;
   padding: 10px;
+  margin: 8px;
   border-radius: 40px;
   background-color: #ff8a32;
   box-shadow: 0 10px 8px -4px rgba(0, 0, 0, 0.32);
@@ -51,7 +86,7 @@ export default {
   letter-spacing: 0.5px;
   text-transform: none;
 }
-.paybutton{
+.paybutton {
   background-color: #009bff !important;
   margin: 50px;
 }

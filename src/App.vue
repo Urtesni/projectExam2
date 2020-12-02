@@ -1,11 +1,15 @@
 <template>
   <v-app>
     <v-app-bar fixed color="#009bff" elevate-on-scroll dark app>
-      <img src="./components/assets/logo.png" alt="" @click="$router.push('/')" />
+      <img
+        src="./assets/logo.png"
+        alt=""
+        @click="$router.push('/')"
+      />
       <v-spacer />
       <v-btn @click="$router.push('/')" text>Home</v-btn>
       <v-btn @click="$router.push('/about')" text>Om Produktene</v-btn>
-      
+
       <v-badge
         v-if="cart"
         :content="cart.length"
@@ -21,7 +25,7 @@
     <v-main>
       <router-view @addToCart="addToCart" :cart="cart" />
     </v-main>
-    <v-bottom-navigation :value="value" color="orange" class="mt-5">
+    <v-bottom-navigation color="orange" class="mt-5">
       <v-spacer />
       <v-btn>
         <span>Bli lærer!</span>
@@ -31,7 +35,7 @@
         <span>Hvem er vi</span>
       </v-btn>
       <v-spacer />
-      <img src="./components/assets/logo_sm.png" alt="" height="100%" />
+      <img src="./assets/logo_sm.png" alt="" height="100%" />
       <v-spacer />
       <v-btn>
         <span>Learnlink i presse</span>
@@ -49,14 +53,14 @@
 export default {
   data() {
     return {
-      cart: [],
+      cart: []
     };
   },
   methods: {
     addToCart(item) {
       this.cart.push(item);
-    },
-  },
+    }
+  }
 };
 </script>
 
@@ -84,5 +88,4 @@ export default {
 button.small-button {
   float: right;
 }
-
 </style>

@@ -1,10 +1,8 @@
 <template>
   <div>
-    <v-img
-      min-height="252"
-      min-width="500"
-      src="../components/assets/header3.png"
-    ></v-img>
+    <v-img min-height="252" min-width="500" src="../assets/header3.png">
+      <h3 class="header-image">Test</h3>
+    </v-img>
 
     <div class="row m-5 filter">
       <v-checkbox
@@ -50,7 +48,7 @@
 </template>
 
 <script>
-import json from "@/components/assets/data.json";
+import json from "@/assets/data.json";
 
 export default {
   name: "Home",
@@ -99,6 +97,11 @@ export default {
 </script>
 
 <style scoped>
+.header-image {
+  margin-top: 20%;
+  color: white;
+  font-size: 70px;
+}
 .button {
   justify-content: center;
   width: 200px;
@@ -119,12 +122,10 @@ export default {
   float: center;
   min-height: 415px;
 }
-
 .card img {
   height: 100%;
   width: 100%;
 }
-
 .filter {
   text-transform: uppercase;
 }
