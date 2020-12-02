@@ -22,6 +22,16 @@
       },
       {
          "name": "T-skjorte",
+         "imageurl": "http://urte.no/skole/ExamPictures/tshirt_uni_black_chest_navy_logo.png",
+         "price": "199",
+         "description": "Myk og behagelig t-skjorte for den miljøbevisste. Rykende fersk med Learnlink logo silketrykket på brystet. Med dette plagget blir du en del av vårt team!",
+         "id": "1006",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
+      },
+      {
+         "name": "T-skjorte",
          "imageurl": "http://urte.no/skole/ExamPictures/tshirt_men_orange_chest_ornage_logo.png",
          "price": "199",
          "description": "Myk og behagelig t-skjorte for den miljøbevisste. Rykende fersk med Learnlink logo silketrykket på brystet. Med dette plagget blir du en del av vårt team!",
@@ -46,16 +56,6 @@
          "price": "199",
          "description": "Myk og behagelig t-skjorte for den miljøbevisste. Rykende fersk med Learnlink logo silketrykket på brystet. Med dette plagget blir du en del av vårt team!",
          "id": "1005",
-         "size": "Small",
-         "gender": "Herre",
-         "type": "Clothing"
-      },
-      {
-         "name": "T-skjorte",
-         "imageurl": "http://urte.no/skole/ExamPictures/tshirt_uni_black_chest_navy_logo.png",
-         "price": "199",
-         "description": "Myk og behagelig t-skjorte for den miljøbevisste. Rykende fersk med Learnlink logo silketrykket på brystet. Med dette plagget blir du en del av vårt team!",
-         "id": "1006",
          "size": "Small",
          "gender": "Herre",
          "type": "Clothing"
@@ -111,6 +111,16 @@
          "type": "Clothing"
       },
       {
+         "name": "Cropped t-skjorte",
+         "imageurl": "http://urte.no/skole/ExamPictures/cropped_tshirt_black_chest_navy_logo.png",
+         "price": "199",
+         "description": "Myk og behagelig t-skjorte for den miljøbevisste. Rykende fersk med Learnlink logo silketrykket på brystet. Med dette plagget blir du en del av vårt team!",
+         "id": "1017",
+         "size": "Large",
+         "gender": "Dame",
+         "type": "Clothing"
+      },
+      {
          "name": "Collage genser",
          "imageurl": "http://urte.no/skole/ExamPictures/college_uni_black_back.png",
          "price": "249",
@@ -141,76 +151,6 @@
          "type": "Clothing"
       },
       {
-         "name": "Cropped t-skjorte",
-         "imageurl": "http://urte.no/skole/ExamPictures/cropped_tshirt_black_chest_navy_logo.png",
-         "price": "199",
-         "description": "Myk og behagelig t-skjorte for den miljøbevisste. Rykende fersk med Learnlink logo silketrykket på brystet. Med dette plagget blir du en del av vårt team!",
-         "id": "1017",
-         "size": "Large",
-         "gender": "Dame",
-         "type": "Clothing"
-      },
-      {
-         "name": "Svart kopp",
-         "imageurl": "http://urte.no/skole/ExamPictures/cup_black.png",
-         "price": "99",
-         "description": "Visste du at du får 10% på de fleste kafféer i landet om du har med egen kopp? Koppene er laget av materiale som tåler oppvaskmaskin, så her er det bare fylle og nyte!",
-         "id": "1020",
-         "size": "Small",
-         "gender": "Herre",
-         "type": "Clothing"
-      },
-      {
-         "name": "Svart kopp",
-         "imageurl": "http://urte.no/skole/ExamPictures/cup_black_navy_logo.png",
-         "price": "99",
-         "description": "Visste du at du får 10% på de fleste kafféer i landet om du har med egen kopp? Koppene er laget av materiale som tåler oppvaskmaskin, så her er det bare fylle og nyte!",
-         "id": "1021",
-         "size": "Small",
-         "gender": "Herre",
-         "type": "Clothing"
-      },
-      {
-         "name": "Hvit metall kopp",
-         "imageurl": "http://urte.no/skole/ExamPictures/cup_metal_navy_logo.png",
-         "price": "149",
-         "description": "Visste du at du får 10% på de fleste kafféer i landet om du har med egen kopp? Koppene er laget av materiale som tåler oppvaskmaskin, så her er det bare fylle og nyte!r",
-         "id": "1022",
-         "size": "Small",
-         "gender": "Herre",
-         "type": "Clothing"
-      },
-      {
-         "name": "Blå kopp",
-         "imageurl": "http://urte.no/skole/ExamPictures/cup_navy.png",
-         "price": "99",
-         "description": "Visste du at du får 10% på de fleste kafféer i landet om du har med egen kopp? Koppene er laget av materiale som tåler oppvaskmaskin, så her er det bare fylle og nyte!",
-         "id": "1023",
-         "size": "Small",
-         "gender": "Herre",
-         "type": "Clothing"
-      },
-      {
-         "name": "Oransje kopp",
-         "imageurl": "http://urte.no/skole/ExamPictures/cup_orange.png",
-         "price": "99",
-         "description": "Visste du at du får 10% på de fleste kafféer i landet om du har med egen kopp? Koppene er laget av materiale som tåler oppvaskmaskin, så her er det bare fylle og nyte!",
-         "id": "1024",
-         "size": "Small",
-         "gender": "Herre",
-         "type": "Clothing"
-      },
-      {
-         "name": "Hvit kopp",
-         "imageurl": "http://urte.no/skole/ExamPictures/cup_white_navy_long_logo.png",
-         "price": "99",
-         "description": "Visste du at du får 10% på de fleste kafféer i landet om du har med egen kopp? Koppene er laget av materiale som tåler oppvaskmaskin, så her er det bare fylle og nyte!",
-         "id": "1025",
-         "size": "Small",
-         "gender": "Herre",
-         "type": "Clothing"
-      },
-      {
          "name": "Hettegenser",
          "imageurl": "http://urte.no/skole/ExamPictures/hoodie_men_black_chest_navy_logo.png",
          "price": "299",
@@ -226,16 +166,6 @@
          "price": "299",
          "description": "Trendy, bærekraftig hettegenser for den miljøbevisste. Rykende fersk med Learnlink silketrykket på brystet. Her får du et ekstremt mykt og behagelig plagg laget av økologisk ringspunnet kjemmet bomull kombinert med RCS-sertifisert resikulert polyester.",
          "id": "1027",
-         "size": "Small",
-         "gender": "Herre",
-         "type": "Clothing"
-      },
-      {
-         "name": "Hettegenser",
-         "imageurl": "http://urte.no/skole/ExamPictures/hoodie_men_black_white_logo.png",
-         "price": "299",
-         "description": "Trendy, bærekraftig hettegenser for den miljøbevisste. Rykende fersk med Learnlink silketrykket på brystet. Her får du et ekstremt mykt og behagelig plagg laget av økologisk ringspunnet kjemmet bomull kombinert med RCS-sertifisert resikulert polyester.",
-         "id": "1028",
          "size": "Small",
          "gender": "Herre",
          "type": "Clothing"
@@ -338,6 +268,66 @@
          "id": "1038",
          "size": "Small",
          "gender": "Unisex",
+         "type": "Clothing"
+      },
+      {
+         "name": "Svart kopp",
+         "imageurl": "http://urte.no/skole/ExamPictures/cup_black.png",
+         "price": "99",
+         "description": "Visste du at du får 10% på de fleste kafféer i landet om du har med egen kopp? Koppene er laget av materiale som tåler oppvaskmaskin, så her er det bare fylle og nyte!",
+         "id": "1020",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
+      },
+      {
+         "name": "Oransje kopp",
+         "imageurl": "http://urte.no/skole/ExamPictures/cup_orange.png",
+         "price": "99",
+         "description": "Visste du at du får 10% på de fleste kafféer i landet om du har med egen kopp? Koppene er laget av materiale som tåler oppvaskmaskin, så her er det bare fylle og nyte!",
+         "id": "1024",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
+      },
+      {
+         "name": "Svart kopp",
+         "imageurl": "http://urte.no/skole/ExamPictures/cup_black_navy_logo.png",
+         "price": "99",
+         "description": "Visste du at du får 10% på de fleste kafféer i landet om du har med egen kopp? Koppene er laget av materiale som tåler oppvaskmaskin, så her er det bare fylle og nyte!",
+         "id": "1021",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
+      },
+      {
+         "name": "Blå kopp",
+         "imageurl": "http://urte.no/skole/ExamPictures/cup_navy.png",
+         "price": "99",
+         "description": "Visste du at du får 10% på de fleste kafféer i landet om du har med egen kopp? Koppene er laget av materiale som tåler oppvaskmaskin, så her er det bare fylle og nyte!",
+         "id": "1023",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
+      },
+      {
+         "name": "Hvit metall kopp",
+         "imageurl": "http://urte.no/skole/ExamPictures/cup_metal_navy_logo.png",
+         "price": "149",
+         "description": "Visste du at du får 10% på de fleste kafféer i landet om du har med egen kopp? Koppene er laget av materiale som tåler oppvaskmaskin, så her er det bare fylle og nyte!r",
+         "id": "1022",
+         "size": "Small",
+         "gender": "Herre",
+         "type": "Clothing"
+      },
+      {
+         "name": "Hvit kopp",
+         "imageurl": "http://urte.no/skole/ExamPictures/cup_white_navy_long_logo.png",
+         "price": "99",
+         "description": "Visste du at du får 10% på de fleste kafféer i landet om du har med egen kopp? Koppene er laget av materiale som tåler oppvaskmaskin, så her er det bare fylle og nyte!",
+         "id": "1025",
+         "size": "Small",
+         "gender": "Herre",
          "type": "Clothing"
       },
       {
