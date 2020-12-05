@@ -38,8 +38,10 @@
 
     <v-dialog v-model="successDialogVisible">
       <v-card>
-        <v-alert type="success"> Yey! </v-alert>
-        <h4>Tak for bestillingen!</h4>
+        <v-alert type="success">Takk for bestillingen!</v-alert>
+        <h4>Vi pakker varenene og sender de i løpet av de neste gange.
+          Sjekk gjerne e-post kassen din for å se orderebekreftelsen. Gi oss en lyd om du opplever problemer :)
+        </h4>
         <v-btn @click="successDialogVisible = false">Lukk</v-btn>
       </v-card>
     </v-dialog>

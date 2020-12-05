@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h3 class="mt-10">Yo</h3>
+    <h3 class="mt-10">Hva kan du forvente som kunde?</h3>
     <div class="row">
       <h5 class="col-12">
         Vi har nå lansert kolleksjonen som er laget av og med Learnlink ansatte

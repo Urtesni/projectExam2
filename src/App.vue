@@ -7,7 +7,7 @@
         @click="$router.push('/')"
       />
       <v-spacer />
-      <v-btn @click="$router.push('/')" text>Home</v-btn>
+      <v-btn @click="$router.push('/')" text>Hjem</v-btn>
       <v-btn @click="$router.push('/about')" text>Om Produktene</v-btn>
 
       <v-badge

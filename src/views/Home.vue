@@ -1,7 +1,8 @@
 <template>
   <div>
-    <v-img min-height="252" min-width="500" src="../assets/header3.png">
-      <h3 class="header-image">Test</h3>
+    <v-img min-height="240" min-width="300" src="../assets/header3.png">
+      <h3 class="header-image">Learnlink lanserer egen kolleksjon!</h3>
+      <h5 class="header-image2">Kjøp produktene og bli en del av teamet</h5>
     </v-img>
 
     <div class="row m-5 filter">
@@ -98,9 +99,13 @@ export default {
 
 <style scoped>
 .header-image {
-  margin-top: 20%;
-  color: white;
-  font-size: 70px;
+  margin-top: 29%;
+  color: #fff;
+  font-size: 50px;
+}
+.header-image2 {
+  color: #fff;
+  font-size: 30px;
 }
 .button {
   justify-content: center;
