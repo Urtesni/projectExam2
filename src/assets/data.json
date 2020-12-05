@@ -46,7 +46,7 @@
          "price": "199",
          "description": "Myk og behagelig t-skjorte for den miljøbevisste. Rykende fersk med Learnlink logo silketrykket på brystet. Med dette plagget blir du en del av vårt team!",
          "id": "1004",
-         "size": "Small",
+         "size": "Medium",
          "gender": "Herre",
          "type": "Clothing"
       },
@@ -56,7 +56,7 @@
          "price": "199",
          "description": "Myk og behagelig t-skjorte for den miljøbevisste. Rykende fersk med Learnlink logo silketrykket på brystet. Med dette plagget blir du en del av vårt team!",
          "id": "1005",
-         "size": "Small",
+         "size": "Large",
          "gender": "Herre",
          "type": "Clothing"
       },
@@ -166,7 +166,7 @@
          "price": "299",
          "description": "Trendy, bærekraftig hettegenser for den miljøbevisste. Rykende fersk med Learnlink silketrykket på brystet. Her får du et ekstremt mykt og behagelig plagg laget av økologisk ringspunnet kjemmet bomull kombinert med RCS-sertifisert resikulert polyester.",
          "id": "1027",
-         "size": "Small",
+         "size": "Large",
          "gender": "Herre",
          "type": "Clothing"
       },
@@ -176,7 +176,7 @@
          "price": "299",
          "description": "Trendy, bærekraftig hettegenser for den miljøbevisste. Rykende fersk med Learnlink silketrykket på brystet. Her får du et ekstremt mykt og behagelig plagg laget av økologisk ringspunnet kjemmet bomull kombinert med RCS-sertifisert resikulert polyester.o",
          "id": "1029",
-         "size": "Small",
+         "size": "Medium",
          "gender": "Herre",
          "type": "Clothing"
       },
@@ -206,7 +206,7 @@
          "price": "299",
          "description": "Trendy, bærekraftig hettegenser for den miljøbevisste. Rykende fersk med Learnlink silketrykket på brystet. Her får du et ekstremt mykt og behagelig plagg laget av økologisk ringspunnet kjemmet bomull kombinert med RCS-sertifisert resikulert polyester.",
          "id": "1032",
-         "size": "Small",
+         "size": "Large",
          "gender": "Dame",
          "type": "Clothing"
       },
@@ -226,7 +226,7 @@
          "price": "299",
          "description": "Trendy, bærekraftig hettegenser for den miljøbevisste. Rykende fersk med Learnlink silketrykket på brystet. Her får du et ekstremt mykt og behagelig plagg laget av økologisk ringspunnet kjemmet bomull kombinert med RCS-sertifisert resikulert polyester.",
          "id": "1034",
-         "size": "Small",
+         "size": "Large",
          "gender": "Dame",
          "type": "Clothing"
       },
@@ -236,7 +236,7 @@
          "price": "299",
          "description": "Trendy, bærekraftig hettegenser for den miljøbevisste. Rykende fersk med Learnlink silketrykket på brystet. Her får du et ekstremt mykt og behagelig plagg laget av økologisk ringspunnet kjemmet bomull kombinert med RCS-sertifisert resikulert polyester.",
          "id": "1035",
-         "size": "Small",
+         "size": "Medium",
          "gender": "Dame",
          "type": "Clothing"
       },
@@ -247,7 +247,7 @@
          "description": "SMyk og behagelig t-skjorte for den miljøbevisste. Rykende fersk med Learnlink logo silketrykket på brystet. Med dette plagget blir du en del av vårt team!t",
          "id": "1036",
          "size": "Small",
-         "gender": "Dame",
+         "gender": "Medium",
          "type": "Clothing"
       },
       {
@@ -256,7 +256,7 @@
          "price": "149",
          "description": "Myk og behagelig t-skjorte for den miljøbevisste. Rykende fersk med Learnlink logo silketrykket på brystet. Med dette plagget blir du en del av vårt team!",
          "id": "1037",
-         "size": "Small",
+         "size": "Medium",
          "gender": "Dame",
          "type": "Clothing"
       },
@@ -266,7 +266,7 @@
          "price": "199",
          "description": "Myk og behagelig longsleeve for den miljøbevisste. Rykende fersk med Learnlink logo silketrykket på brystet. Med dette plagget blir du en del av vårt team!",
          "id": "1038",
-         "size": "Small",
+         "size": "Medium",
          "gender": "Unisex",
          "type": "Clothing"
       },
@@ -277,7 +277,7 @@
          "description": "Visste du at du får 10% på de fleste kafféer i landet om du har med egen kopp? Koppene er laget av materiale som tåler oppvaskmaskin, så her er det bare fylle og nyte!",
          "id": "1020",
          "size": "Small",
-         "gender": "Herre",
+         "gender": "Unisex",
          "type": "Clothing"
       },
       {
@@ -287,7 +287,7 @@
          "description": "Visste du at du får 10% på de fleste kafféer i landet om du har med egen kopp? Koppene er laget av materiale som tåler oppvaskmaskin, så her er det bare fylle og nyte!",
          "id": "1024",
          "size": "Small",
-         "gender": "Herre",
+         "gender": "Unisex",
          "type": "Clothing"
       },
       {
@@ -297,7 +297,7 @@
          "description": "Visste du at du får 10% på de fleste kafféer i landet om du har med egen kopp? Koppene er laget av materiale som tåler oppvaskmaskin, så her er det bare fylle og nyte!",
          "id": "1021",
          "size": "Small",
-         "gender": "Herre",
+         "gender": "Unisex",
          "type": "Clothing"
       },
       {
@@ -306,8 +306,8 @@
          "price": "99",
          "description": "Visste du at du får 10% på de fleste kafféer i landet om du har med egen kopp? Koppene er laget av materiale som tåler oppvaskmaskin, så her er det bare fylle og nyte!",
          "id": "1023",
-         "size": "Small",
-         "gender": "Herre",
+         "size": "Medium",
+         "gender": "Unisex",
          "type": "Clothing"
       },
       {
@@ -317,7 +317,7 @@
          "description": "Visste du at du får 10% på de fleste kafféer i landet om du har med egen kopp? Koppene er laget av materiale som tåler oppvaskmaskin, så her er det bare fylle og nyte!r",
          "id": "1022",
          "size": "Small",
-         "gender": "Herre",
+         "gender": "Unisex",
          "type": "Clothing"
       },
       {
@@ -327,7 +327,7 @@
          "description": "Visste du at du får 10% på de fleste kafféer i landet om du har med egen kopp? Koppene er laget av materiale som tåler oppvaskmaskin, så her er det bare fylle og nyte!",
          "id": "1025",
          "size": "Small",
-         "gender": "Herre",
+         "gender": "Unisex",
          "type": "Clothing"
       },
       {
@@ -367,7 +367,7 @@
          "description": "Klassisk handlenett du kan fylle med noe digg i studiehverdagen. Vis folk med stolthet at du jobber i Learnlink og samtidig er miljøbevisst<3",
          "id": "1042",
          "size": "Small",
-         "gender": "Herre",
+         "gender": "Unisex",
          "type": "Clothing"
       },
       {
@@ -377,7 +377,7 @@
          "description": "Klassisk handlenett du kan fylle med noe digg i studiehverdagen. Vis folk med stolthet at du jobber i Learnlink og samtidig er miljøbevisst<3",
          "id": "1043",
          "size": "Small",
-         "gender": "Herre",
+         "gender": "Unisex",
          "type": "Clothing"
       },
       {
@@ -387,7 +387,7 @@
          "description": "Klassisk handlenett du kan fylle med noe digg i studiehverdagen. Vis folk med stolthet at du jobber i Learnlink og samtidig er miljøbevisst<3o",
          "id": "1044",
          "size": "Small",
-         "gender": "Herre",
+         "gender": "Unisex",
          "type": "Clothing"
       },
       {
@@ -397,7 +397,7 @@
          "description": "Klassisk handlenett du kan fylle med noe digg i studiehverdagen. Vis folk med stolthet at du jobber i Learnlink og samtidig er miljøbevisst<3",
          "id": "1045",
          "size": "Small",
-         "gender": "Herre",
+         "gender": "Unisex",
          "type": "Clothing"
       },
       {
@@ -407,7 +407,7 @@
          "description": "Klassisk handlenett du kan fylle med noe digg i studiehverdagen. Vis folk med stolthet at du jobber i Learnlink og samtidig er miljøbevisst<3",
          "id": "1046",
          "size": "Small",
-         "gender": "Herre",
+         "gender": "Unisex",
          "type": "Clothing"
       },
       {
@@ -417,7 +417,7 @@
          "description": "Klassisk handlenett du kan fylle med noe digg i studiehverdagen. Vis folk med stolthet at du jobber i Learnlink og samtidig er miljøbevisst<3",
          "id": "1047",
          "size": "Small",
-         "gender": "Herre",
+         "gender": "Unisex",
          "type": "Clothing"
       },
       {
